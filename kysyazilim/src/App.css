@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar-left a,
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+/* telefonlar için */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+ 
+
+  .navbar-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    gap: 8px;
+    flex-direction: row;
+  }
+}
