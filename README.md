@@ -1,0 +1,1 @@
+Üye giriş ve kayıt olma sayfası mevcuttur. İlk açıldığında önce üye giriş ekranına atıyor daha sonrasında giriş yaptıktan sonra profil oluşturma sayfasına yönlendiriyor. Api entegresi yapılabilmesi için kodları hazır. 
